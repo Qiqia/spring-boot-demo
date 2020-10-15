@@ -38,7 +38,13 @@
 			<groupId>cn.hutool</groupId>
 			<artifactId>hutool-all</artifactId>
 		</dependency>
-	</dependencies>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.70</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
 
 	<build>
 		<finalName>spring-boot-demo-helloworld</finalName>
