@@ -15,10 +15,10 @@ import java.util.Map;
 
 public class RestTemplateTest {
     public static void main(String[] args) {
-        String url = "https://qr-test3.chinaums.com/netpay-route-server/api/";
+        String url = "https://qr-test3..com/-route-server/api/";
 
 //        JSONObject query = new JSONObject();
-//        query.put("msgType","upfq.query");
+//        query.put("msgType","");
 //        query.put("requestTimestamp","2020-03-31 14:36:39");
 //        query.put("msgSrc","WWW.TEST.COM");
 //        query.put("sign","6B31FAD8D80959A658D24A820BE0AAF05516AB7F8DF5F606472FB6B92799D757");
@@ -30,7 +30,7 @@ public class RestTemplateTest {
 
 
         Map<String,String> query = new HashMap<String,String>(){{
-            put("msgType","upfq.query");
+            put("msgType","");
             put("requestTimestamp","2020-03-31 14:36:39");
             put("msgSrc","WWW.TEST.COM");
             put("sign","6B31FAD8D80959A658D24A820BE0AAF05516AB7F8DF5F606472FB6B92799D757");
